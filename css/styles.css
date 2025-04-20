@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+.card {
+    border: 1px solid rgb(222 222 222);
+    border-radius: 16px;
+    width: 20em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+h2 {
+    font-size: 1.5em;
+}
+.card-title{
+    margin-bottom: 1em;
+}
+
+span{
+    font-family: 'Inter', sans-serif;
+    color: #4A4A4A;
+    font-size: 0.90em;
+}
+.container-item{
+    display: inline-flex;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: 0.6em;
+}
+
+.container-item img{
+    margin-right: 1em;
+
+}
+.container-item span{
+    padding-top: 0.1em;
+    margin-top: 0.4em;
+}
+
+.price{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.currency{
+    font-size: 1.2em;
+    color: gray;
+}
+
+button {
+    display: inline-block;
+    padding: 0.4em 2em;
+    border: 2px solid red;
+    border-radius: 1.5em;
+    background-color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button span{
+    color: red;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+.card-price{
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
